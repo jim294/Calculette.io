@@ -54,7 +54,7 @@ body {
     margin-top: 50px;
     width: 500px;
     height: 600px;
-    background-image: url(mini-calculatrice/Photos/photo-1.jpg);
+    background-image: url(../Photos/photo-1.jpg);
     background-size: cover;
 
 }
