@@ -54,7 +54,7 @@ body {
     margin-top: 50px;
     width: 500px;
     height: 600px;
-    background-image: url(../Photos/photo-1.jpg);
+    background-image: url(/mini-calculatrice/Photos/photo-1.jpg);
     background-size: cover;
 
 }
@@ -118,4 +118,17 @@ input {
 .calculer {
     height: 50px;
     width: 100px
+}
+
+@media (max-width: 767.98px){
+
+.container{
+    width: 350px;
+}
+
+.userInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 }
