@@ -24,7 +24,7 @@ function calcul(op,nb1, nb2){
         result=nb1-nb2
     } else if(op=="x"){
         result=nb1*nb2
-    }else if(op=="/"){
+    }else if(op=="÷"){
         result=nb1/nb2
     }
     resultHtml.textContent= result;
