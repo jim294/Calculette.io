@@ -42,44 +42,58 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
 body {
+    background-image: url(../Photos/photo-1.jpg);
+    background-size: cover;
+}
+
+.calculette {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    margin-top: 50px;
-    width: 500px;
-    height: 600px;
-    background-image: url(/mini-calculatrice/Photos/photo-1.jpg);
-    background-size: cover;
-
 }
 
 .container{
-    width: 550px;
-    height: 500px;
+    width: 400px;
+    height: 700px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
     border: 2px solid gray;
+    border-radius: 20px;
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0,0,0,0);
     margin-top: 20px;
     padding-top: 40px;
-    background-color: bisque;
-}
-
-.operateur {
-    width: 50px;
-    height: 50px;
+    background-color: rgb(196, 202, 255);
 }
 
 .operateurs {
     display: flex;
     justify-content: center;
+    gap: 30px;
+}
+
+.operateur {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #3A428D, 5px 5px 15px 5px rgba(0,0,0,0);
+    color: rgba(38, 0, 255, 0.644);
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.selecteur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.userNumber {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
@@ -93,11 +107,23 @@ body {
 }
 
 h1 {
-    background-color: antiquewhite;
+    background-color: rgb(196, 202, 255);
     text-align: center;
     font-size: 50px;
     border: 2px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
     
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    color: rgba(38, 0, 255, 0.644);
+    font-weight: 700;
 }
 
 input {
@@ -105,6 +131,12 @@ input {
     text-align: center;
 }
 
+.resultat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
 .result {
     display: flex;
@@ -113,11 +145,17 @@ input {
     height: 50px;
     width: 100px;
     background-color: antiquewhite;
+    color: #FF0000;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .calculer {
     height: 50px;
-    width: 100px
+    width: 100px;
+    color: rgba(38, 0, 255, 0.644);
+    font-weight: 700;
+    font-size: 15px;
 }
 
 @media (max-width: 767.98px){

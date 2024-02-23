@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="Js/code.js" defer></script>
     <link rel="stylesheet" href="Css/style.css">
 </head>
+
 <body>
     <section class="calculette">
         <h1>Mini Calculatrice</h1>
@@ -17,14 +19,25 @@
                 <button class="operateur">x</button>
                 <button class="operateur">÷</button>
             </div>
-            <div class="op">+</div>
-            <div class="userInput">
-                <input type="number" id="firstNumber">
-                <input type="number" id="secondNumber">
+            <div class="selecteur">
+                <h2>Etape 1 : Choisir votre sélecteur ci dessus</h2>
+                <div class="op">+</div>
             </div>
+            <div class="userNumber">
+                <h2>Etape 2 : Choisir les nombres à calculer ci dessous</h2>
+                <div class="userInput">
+                    <input type="number" id="firstNumber">
+                    <input type="number" id="secondNumber">
+                </div>
+            </div>
+            <div class="resultat">
+                <h2>Etape 3 : cliquer sur le bouton ci dessous</h2>
+                <button class="calculer">Calculer</button>
+                <h3>RESULTAT</h3>
             <div class="result"></div>
-            <button class="calculer">Calculer</button>
+        </div>
         </div>
     </section>
 </body>
+
 </html>
